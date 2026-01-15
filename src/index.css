@@ -1,0 +1,34 @@
+.main-b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black ;
+    padding: 30px;
+    border-radius: 10px;
+    background-color:dodgerblue;
+    box-shadow: 1px 2px 2px black;
+}
+
+.input-box{
+    margin-bottom: 20px;
+}
+
+.convert-btn{
+    background-color: chartreuse;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 1.3rem;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px black;
+    font-weight: bold;
+
+}
+
+.convert-btn:hover{
+    background-color: hsl(90, 100%, 47%);
+  
+}
+
